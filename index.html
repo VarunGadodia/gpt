@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Surreal personal portfolio featuring selected work, capabilities, and contact details."
+    />
+    <title>Dreamframe — Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <div class="noise" aria-hidden="true"></div>
+    <div class="orbs" aria-hidden="true">
+      <span class="orb orb-a"></span>
+      <span class="orb orb-b"></span>
+      <span class="orb orb-c"></span>
+    </div>
+
+    <header class="site-header glass" id="top">
+      <a href="#top" class="brand" aria-label="Homepage">DREAMFRAME</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section reveal" id="hero">
+        <p class="kicker">Creative Portfolio · 2026 Edition</p>
+        <h1>
+          Hi, I’m <span class="text-accent">Alex Morrow</span>.<br />
+          I build digital experiences that feel like lucid dreams.
+        </h1>
+        <p class="hero-copy">
+          I blend interface design, motion, and storytelling to create websites and products with cinematic presence and sharp usability.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#work">View Selected Work</a>
+          <a class="btn btn-ghost" href="#contact">Start a Project</a>
+        </div>
+        <p class="hero-meta">Based in New York · Available for freelance & collaborations</p>
+      </section>
+
+      <section class="about section reveal" id="about">
+        <div class="section-heading-wrap">
+          <p class="kicker">About</p>
+          <h2>Designing where emotion meets precision.</h2>
+        </div>
+        <div class="about-grid glass">
+          <p>
+            I’m a multidisciplinary creative focused on web design, front-end craft, and visual storytelling. I care about contrast, rhythm, and interaction details that make people pause.
+          </p>
+          <p>
+            My process starts with atmosphere and concept, then translates into clean systems: accessible layouts, structured components, and performance-aware motion.
+          </p>
+          <p>
+            Current obsessions: generative textures, kinetic type, dreamy light studies, and building portfolio experiences that feel authored—not templated.
+          </p>
+        </div>
+      </section>
+
+      <section class="work section reveal" id="work">
+        <div class="section-heading-wrap">
+          <p class="kicker">Selected Work</p>
+          <h2>Three projects from the edge of clarity.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card glass">
+            <p class="project-type">Brand + Web</p>
+            <h3>Aurora Archive</h3>
+            <p>
+              An editorial portfolio for a fashion image-maker with layered galleries, atmospheric transitions, and a custom grid engine.
+            </p>
+            <a href="#" aria-label="View Aurora Archive case study">View Case Study →</a>
+          </article>
+          <article class="project-card glass">
+            <p class="project-type">Interactive Story</p>
+            <h3>Midnight Atlas</h3>
+            <p>
+              A narrative website for an indie music project, combining ambient audio cues, floating typography, and motion-led chapter reveals.
+            </p>
+            <a href="#" aria-label="View Midnight Atlas case study">View Case Study →</a>
+          </article>
+          <article class="project-card glass">
+            <p class="project-type">Product Design</p>
+            <h3>Frameflow OS</h3>
+            <p>
+              Product UX and visual system for a creator platform: dashboards, workflows, and onboarding tuned for clarity under complexity.
+            </p>
+            <a href="#" aria-label="View Frameflow OS case study">View Case Study →</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section reveal" id="skills">
+        <div class="section-heading-wrap">
+          <p class="kicker">Skills</p>
+          <h2>Capabilities that turn ideas into atmosphere.</h2>
+        </div>
+        <ul class="skill-list glass">
+          <li><span>Experience Design</span><em>UI/UX, information architecture, journey mapping</em></li>
+          <li><span>Visual Direction</span><em>Art direction, typography systems, brand expression</em></li>
+          <li><span>Front-End Craft</span><em>HTML, CSS, JavaScript, accessibility, performance</em></li>
+          <li><span>Motion & Interaction</span><em>Micro-animations, reveal systems, narrative transitions</em></li>
+          <li><span>Collaboration</span><em>Creative strategy, design handoff, rapid iteration</em></li>
+        </ul>
+      </section>
+
+      <section class="contact section reveal" id="contact">
+        <div class="section-heading-wrap">
+          <p class="kicker">Contact</p>
+          <h2>Let’s make something unforgettable.</h2>
+        </div>
+        <div class="contact-card glass">
+          <p>
+            If you’re building a product, campaign, or digital story that needs strong atmosphere and clear execution, I’d love to talk.
+          </p>
+          <a class="mail-link" href="mailto:hello@alexmorrow.design">hello@alexmorrow.design</a>
+          <ul class="socials" aria-label="Social links">
+            <li><a href="#" aria-label="LinkedIn profile">LinkedIn</a></li>
+            <li><a href="#" aria-label="GitHub profile">GitHub</a></li>
+            <li><a href="#" aria-label="Dribbble profile">Dribbble</a></li>
+            <li><a href="#" aria-label="Instagram profile">Instagram</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Alex Morrow. Built with hand-coded HTML, CSS, and JS.</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
